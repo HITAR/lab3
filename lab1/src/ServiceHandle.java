@@ -52,7 +52,7 @@ class QoS {
     /**
     * ¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­.
     */
-    public float reliaBlility;
+    public float reliaBility;
     /**
      * ¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­.
      */
@@ -75,7 +75,7 @@ class QoS {
     /**
     * ¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­.
     */
-        this.name = name;
+        this.name = n;
         /**
     * ¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­.
     */
@@ -83,7 +83,7 @@ class QoS {
         /**
     * ¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­.
     */
-        this.reliaBlility = x2;
+        this.reliaBility = x2;
         /**
     * ¡­¡­¡­¡­¡­¡­¡­¡­¡­¡­.
     */

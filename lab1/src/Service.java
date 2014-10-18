@@ -74,7 +74,7 @@ public class Service {
   		System.out.print(" "+i+" ");
   		int nu=0;
   		int rem=0;
-  		rt = ServiceHandle.service.get(0).reliaBlility;
+  		rt = ServiceHandle.service.get(0).reliaBility;
   		pt=ServiceHandle.service.get(0).prIce;
   		for(int j=1;j<=ServiceHandle.service.size()-1;j++)
   		{
@@ -82,9 +82,9 @@ public class Service {
   		    	System.out.print(j+",");
   		    if(pro[i].charAt(nu)==ServiceHandle.service.get(j).getcLass())
   		    {
-  		    	if(rtF*ServiceHandle.service.get(j).reliaBlility-(ptF+ServiceHandle.service.get(j).prIce)/100>rt-pt/100)
+  		    	if(rtF*ServiceHandle.service.get(j).reliaBility-(ptF+ServiceHandle.service.get(j).prIce)/100>rt-pt/100)
   		    	{
-  		    		rt=rtF*ServiceHandle.service.get(j).reliaBlility;
+  		    		rt=rtF*ServiceHandle.service.get(j).reliaBility;
   		    		pt=ptF+ServiceHandle.service.get(j).prIce;
   		    		rem=j+1;
   		    	}
@@ -126,7 +126,7 @@ public class Service {
   		    	nu++;
   		    	rtF=rt;
   		    	ptF=pt;
-  		    	rt=rtF*ServiceHandle.service.get(j).reliaBlility;
+  		    	rt=rtF*ServiceHandle.service.get(j).reliaBility;
   		    	pt=ptF*ServiceHandle.service.get(j).prIce;
   		    	continue;
   		    }
