@@ -1,0 +1,4 @@
+(A,B),(A,C),(C,D),(B,G),(D,G)
+(A,B),(A,C),(C,D),(C,E),(B,G),(D,G),(E,H),(G,K),(H,K)
+(A,B),(A,C),(C,D),(C,E),(C,F),(B,G),(D,G),(E,H),(F,I),(F,J),(G,K),(H,K),(K,L),(I,L),(J,L)
+(A,B),(A,C),(C,D),(C,E),(C,F),(B,G),(D,G),(E,H),(F,I),(F,J),(G,K),(H,K),(K,L),(I,L),(J,L),(G,M),(I,M),(M,N),(L,N)

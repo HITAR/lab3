@@ -1,0 +1,36 @@
+Found a 6 line (77 tokens) duplication in the following files: 
+Starting at line 86 of C:\Users\—Ó”Ò√∑\Workspaces3\lab1\src\lab1\Service.java
+Starting at line 101 of C:\Users\—Ó”Ò√∑\Workspaces3\lab1\src\lab1\Service.java
+
+  		    	if(j==ServiceHandle.service.size()-1)
+  		    	{
+  		    		System.out.print(pro[i].charAt(nu)+"-"+rem%500+" ");
+  		    		String k=pro[i].charAt(nu)+"-"+Integer.toString(rem%500);
+  	  		    	String l=pro[i].charAt(nu)+"";
+  			    		tmp=tmp.replaceAll(l, k);
+=====================================================================
+Found a 6 line (73 tokens) duplication in the following files: 
+Starting at line 86 of C:\Users\—Ó”Ò√∑\Workspaces3\lab1\src\lab1\Service.java
+Starting at line 101 of C:\Users\—Ó”Ò√∑\Workspaces3\lab1\src\lab1\Service.java
+Starting at line 115 of C:\Users\—Ó”Ò√∑\Workspaces3\lab1\src\lab1\Service.java
+
+  		    	if(j==ServiceHandle.service.size()-1)
+  		    	{
+  		    		System.out.print(pro[i].charAt(nu)+"-"+rem%500+" ");
+  		    		String k=pro[i].charAt(nu)+"-"+Integer.toString(rem%500);
+  	  		    	String l=pro[i].charAt(nu)+"";
+  			    		tmp=tmp.replaceAll(l, k);
+=====================================================================
+Found a 9 line (48 tokens) duplication in the following files: 
+Starting at line 91 of C:\Users\—Ó”Ò√∑\Workspaces3\lab1\src\lab1\Service.java
+Starting at line 107 of C:\Users\—Ó”Ò√∑\Workspaces3\lab1\src\lab1\Service.java
+
+  			    		tmp=tmp.replaceAll(l, k);
+  			    		//System.out.print(tmp);
+  			    		rp.write(tmp);
+  			    		rp.newLine();
+  			    		
+  	  		    	System.out.print(j+"\n"+(rt-pt/100));
+  	  		        System.out.print("\nrt="+rt+",pt="+pt+"\n");
+  	  		    	break;
+  		    	}
