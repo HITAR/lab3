@@ -31,7 +31,7 @@ public class ServiceHandle {
         final int fOUR = 4;
         bf = new BufferedReader(new FileReader(new File(name)));
         while ((tempString = bf.readLine()) != null) {
-            tempString.trim();
+            tempString = tempString.trim();
             String[] temp = tempString.split(" ");
             QoS s = new QoS(temp[0], Float.parseFloat(temp[1]),
                     Float.parseFloat(temp[2]), Float.parseFloat(temp[tTREE]),
